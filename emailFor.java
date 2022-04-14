@@ -7,9 +7,9 @@ public class emailFor {
         List email = new ArrayList();
         email.add("pessoa0@gmail.com");
         email.add("pessoa1@gmail.com");
-        email.add("pessoa@2gmail.com");
-        email.add("pessoa3@gmail.com");
+        email.add("pessoa32gmail.com");
         email.add("pessoa4@gmail.com");
+        email.add("pessoa5@gmail.com");
 
         //For off
         for (Object Lista : email) {
