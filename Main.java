@@ -9,7 +9,8 @@ public class Main {
     computador.monitor = "eliteone";
     computador.placaMae = "Aouros";
 
+    computador.ligarComputador();
     computador.setupComputador(computador);
-
+    computador.desiliguarComputador();
   }
 }
