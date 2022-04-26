@@ -16,9 +16,17 @@ public class Computador {
         System.out.println("Reniciando o computador");
     }
 
-    public void setupComputador(Computador computador) {
-        System.out.println("o setup e " + computador.processador +  computador.memoria + computador.placaMae + computador.monitor);
+    public Computador(String processador, String memoria, String monitor, String placaMae){
+        this.processador = processador;
+        this.memoria = memoria;
+        this.monitor = monitor;
+        this.placaMae = placaMae;
+
+
+//        System.out.println(memoria + "\n" + monitor + "\n" +  placaMae + "\n" + processador);
     }
+
+
 
 }
 

@@ -2,15 +2,10 @@
 public class Main {
   public static void main(String[] args) {
 
-    Computador computador = new Computador();
-
-    computador.processador = "intel";
-    computador.memoria = "asus";
-    computador.monitor = "eliteone";
-    computador.placaMae = "Aouros";
+    Computador computador = new Computador("Amd", "hyperX", "Nvida", "Asus");
 
     computador.ligarComputador();
-    computador.setupComputador(computador);
     computador.desiliguarComputador();
+
   }
 }
