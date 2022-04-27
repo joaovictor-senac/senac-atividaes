@@ -4,8 +4,8 @@ public class Professor extends Aluno {
     int idade;
     Aluno aluno;
 
-    public Professor(String nome,int NotaDoAluno, int idade) {
-        super("douglas", 50);
+    public Professor(String nome,int notaDoAluno, int idade) {
+        super(nome, notaDoAluno);
         this.nome = nome;
         this.notaDoAluno = nota;
         this.idade = idade;
