@@ -11,7 +11,7 @@ public class Produtos {
 
     private int valorPromocao;
 
-    private String data;
+
 
 
 
@@ -55,12 +55,5 @@ public class Produtos {
         this.valorPromocao = valorPromocao;
     }
 
-    public String getData() {
-        return data;
-    }
-
-    public void setData(String data) {
-        this.data = data;
-    }
 
 }
