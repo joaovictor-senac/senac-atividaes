@@ -1,4 +1,4 @@
-public class Registro extends Abstract_Pessoa {
+public class Pessoa extends Abstract {
 // Dados da pessoa
     private String nome;
     private String rg;
@@ -8,14 +8,8 @@ public class Registro extends Abstract_Pessoa {
     private String genero;
     private String religiao;
 
-    private int altura;
+    private Double altura;
     private Double peso;
-
-
-
-
-
-
 
 
 
@@ -75,11 +69,11 @@ public class Registro extends Abstract_Pessoa {
         this.religiao = religiao;
     }
 
-    public int getAltura() {
+    public Double getAltura() {
         return altura;
     }
 
-    public void setAltura(int altura) {
+    public void setAltura(Double altura) {
         this.altura = altura;
     }
 
@@ -90,6 +84,27 @@ public class Registro extends Abstract_Pessoa {
     public void setPeso(Double peso) {
         this.peso = peso;
     }
+
+    @Override
+    public void salvar() {
+        System.out.println("oi");
+    }
+
+    @Override
+    public void editar() {
+
+    }
+
+    @Override
+    public void excluir() {
+
+    }
+
+    @Override
+    public void listar() {
+
+    }
+
 
 }
 
